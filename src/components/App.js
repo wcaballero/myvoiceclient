@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import GridList from '@material-ui/core/GridList';
 
 import Input from './Input';
 import Icon from './Icon';
@@ -40,6 +39,294 @@ class App extends Component {
     // todo: implement redux to manage the apps state
     state = {
         icons: [
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'clear',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Gracie',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'Devony'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'William',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'Obama'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Clinton',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'George'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Abraham',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Sid',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Sid',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Sid',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Sid',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'clear',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Gracie',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'Devony'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'William',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'Obama'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Clinton',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'George'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Abraham',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Sid',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Sid',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Sid',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Sid',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'clear',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Gracie',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'Devony'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'William',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'Obama'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Clinton',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'George'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Abraham',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Sid',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Sid',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Sid',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Sid',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'clear',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Gracie',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'Devony'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'William',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'Obama'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Clinton',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'George'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Abraham',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Sid',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Sid',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Sid',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
+            {
+                imageUrl: '/static/images/icons/sid_v2.jpg',
+                text: 'Sid',
+            },
+            {
+                imageUrl: '/static/images/icons/an.jpg',
+                text: 'An'
+            },
             {
                 imageUrl: '/static/images/icons/sid_v2.jpg',
                 text: 'clear',
